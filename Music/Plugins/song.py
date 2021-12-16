@@ -129,23 +129,23 @@ Kembalikan ke Akun Pengguna Dari Hak Admin.
 <b>✨ Silahkan Pilih Maba Yang Ingin Didownload</b>
 
 
-¹ <b>{title1[:20]}</b>
+⓵ <b>{title1[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-² <b>{title2[:20]}</b>
+⓶ <b>{title2[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-³ <b>{title3[:20]}</b>
+⓷ <b>{title3[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁴ <b>{title4[:20]}</b>
+⓸ <b>{title4[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁵ <b>{title5[:20]}</b>
+⓹ <b>{title5[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
@@ -289,23 +289,23 @@ async def chonga(_, CallbackQuery):
 <b>✨ Silahkan Pilih Maba Yang Ingin Didownload</b>
 
 
-⁶ <b>{title6[:20]}</b>
+⓺ <b>{title6[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁷ <b>{title7[:20]}</b>
+⓻ <b>{title7[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁸ <b>{title8[:20]}</b>
+⓼ <b>{title8[:20]}</b>
 ├ 💡 [Get Additional Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁹ <b>{title9[:20]}</b>
+⓽ <b>{title9[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-¹⁰ <b>{title10[:20]}</b>
+⓾ <b>{title10[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
@@ -332,23 +332,23 @@ async def chonga(_, CallbackQuery):
 <b>✨ Silahkan Pilih Maba Yang Ingin Didownload</b>
 
 
-¹ <b>{title1[:20]}</b>
+⓵ <b>{title1[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-² <b>{title2[:20]}</b>
+⓶ <b>{title2[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-³ <b>{title3[:20]}</b>
+⓷ <b>{title3[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁴ <b>{title4[:20]}</b>
+⓸ <b>{title4[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 
-⁵ <b>{title5[:20]}</b>
+⓹ <b>{title5[:20]}</b>
 ├ 💡 [More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})
 └ ⚡ **Didukung:** [{BOT_NAME}](t.me/{BOT_USERNAME})
 """,
@@ -374,21 +374,21 @@ def search_markup(
     buttons = [
         [
             InlineKeyboardButton(
-                text="¹", callback_data=f"beta {ID1}|{duration1}|{user_id}"
+                text="1", callback_data=f"beta {ID1}|{duration1}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="²", callback_data=f"beta {ID2}|{duration2}|{user_id}"
+                text="2", callback_data=f"beta {ID2}|{duration2}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="³", callback_data=f"beta {ID3}|{duration3}|{user_id}"
+                text="3", callback_data=f"beta {ID3}|{duration3}|{user_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⁴", callback_data=f"beta {ID4}|{duration4}|{user_id}"
+                text="4", callback_data=f"beta {ID4}|{duration4}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="⁵", callback_data=f"beta {ID5}|{duration5}|{user_id}"
+                text="5", callback_data=f"beta {ID5}|{duration5}|{user_id}"
             ),
         ],
         [
@@ -421,21 +421,21 @@ def search_markup2(
     buttons = [
         [
             InlineKeyboardButton(
-                text="⁶", callback_data=f"beta {ID6}|{duration6}|{user_id}"
+                text="6", callback_data=f"beta {ID6}|{duration6}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="⁷", callback_data=f"beta {ID7}|{duration7}|{user_id}"
+                text="7", callback_data=f"beta {ID7}|{duration7}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="⁸", callback_data=f"beta {ID8}|{duration8}|{user_id}"
+                text="8", callback_data=f"beta {ID8}|{duration8}|{user_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⁹", callback_data=f"beta {ID9}|{duration9}|{user_id}"
+                text="9", callback_data=f"beta {ID9}|{duration9}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="¹⁰", callback_data=f"beta {ID10}|{duration10}|{user_id}"
+                text="10", callback_data=f"beta {ID10}|{duration10}|{user_id}"
             ),
         ],
         [
