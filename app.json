@@ -6,7 +6,7 @@
     "repository": "https://github.com/krisnadiwangga/KyyMusic",
     "stack": "container",
     "env": {
-        "SESSION_NAME": {
+        "STRING_SESSION": {
             "description": "fill with the pyrogram session string from account",
             "required": true
         },
