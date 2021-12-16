@@ -119,11 +119,11 @@ async def play(_, message: Message):
         await app.send_message(
             message.chat.id,
             text=f"""
-**✨ Selamat Datang {rpk}!
+**✨ sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ {rpk}!
 
-💬 [{BOT_NAME}](t.me/{BOT_USERNAME}) memungkinkan anda untuk memutar musik pada grup melalui obrolan suara yang baru di Telegram!
+💬 [{BOT_NAME}](t.me/{BOT_USERNAME}) ᴍᴇᴍᴜɴɢᴋɪɴᴋᴀɴ ᴀɴᴅᴀ ᴜɴᴛᴜᴋ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜsɪᴋ ᴘᴀᴅᴀ ɢʀᴜᴘ ᴍᴇʟᴀʟᴜɪ ᴏʙʀᴏʟᴀɴ sᴜᴀʀᴀ ʏᴀɴɢ ʙᴀʀᴜ ᴅɪ ᴛᴇʟᴇɢʀᴀᴍ!
 
-💡 Untuk Mengetahui Semua Perintah Bot Dan Bagaimana Cara Kerja Nya Dengan Menekan Tombol » 📚 ᴄᴏᴍᴍᴀɴᴅ​!**
+💡 ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ ᴅᴀɴ ʙᴀɢᴀɪᴍᴀɴᴀ ᴄᴀʀᴀ ᴋᴇʀᴊᴀ ɴʏᴀ ᴅᴇɴɢᴀɴ ᴍᴇɴᴇᴋᴀɴ ᴛᴏᴍʙᴏʟ » 📚 ᴄᴏᴍᴍᴀɴᴅ​!**
 
 """,
             parse_mode="markdown",
