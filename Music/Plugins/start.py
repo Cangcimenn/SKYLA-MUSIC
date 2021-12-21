@@ -26,11 +26,11 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ​", url="https://t.me/{SUPPORT_GROUP}"),
-            InlineKeyboardButton(text="✨ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("🔥 OWNER 🔥", url="https://t.me/{OWNER}"),
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/{OWNER}"),
         ],
     ]
     return (
@@ -46,11 +46,11 @@ pstart_markup = InlineKeyboardMarkup(
                 "➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴛᴏ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ​", url="https://t.me/{SUPPORT_GROUP}"),
-            InlineKeyboardButton("✨ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="https://t.me/{SUPPORT_GROUP}"),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("🔥 OWNER 🔥", url="https://t.me/{OWNER}"),
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/{OWNER}"),
         ],
     ]
 )
@@ -123,7 +123,7 @@ async def play(_, message: Message):
 
 💬 [{BOT_NAME}](t.me/{BOT_USERNAME}) ᴍᴇᴍᴜɴɢᴋɪɴᴋᴀɴ ᴀɴᴅᴀ ᴜɴᴛᴜᴋ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜsɪᴋ ᴘᴀᴅᴀ ɢʀᴜᴘ ᴍᴇʟᴀʟᴜɪ ᴏʙʀᴏʟᴀɴ sᴜᴀʀᴀ ʏᴀɴɢ ʙᴀʀᴜ ᴅɪ ᴛᴇʟᴇɢʀᴀᴍ!
 
-Powered by [Takichan](t.me/Zxyune)**
+🔥 Powered by [Takichan](t.me/Zxyune)**
 
 """,
             parse_mode="markdown",
